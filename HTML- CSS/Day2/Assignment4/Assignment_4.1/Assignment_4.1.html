@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This is title of webpage -->
+    <title>Assignment 4.1</title>
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .alldiv {
+            background-color: rgb(238, 238, 255);
+            width: 100%;
+            height: 430px
+        }
+
+        .firstdiv {
+            width: 100%;
+            height: 80px;
+            background-color: rgb(238, 238, 255);
+            text-align: center;
+            border-bottom: 4px solid #000000;
+            font-family: sans-serif;
+        }
+
+        .commondiv {
+            display: flex;
+        }
+
+        .seconddiv {
+            width: 500%;
+            font-family: sans-serif;
+            font-size: 14px;
+            padding: 10px 8px;
+            border-right: 4px solid #000000;
+            background-color: #fff;
+        }
+
+        .thirddiv {
+            width: 500%;
+            margin-left: 5px;
+            padding: 0%;
+            font-family: sans-serif;
+            font-size: 14px;
+            background-color: rgb(238, 238, 255);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="alldiv">
+        <div class="firstdiv">
+            <h1>Put Your HTML in a Box</h1>
+            <p>Scott Allen | July 1, 2010</p>
+        </div>
+        <div class="commondiv">
+            <div class="seconddiv">
+                <p>
+                    The first step in understanding how to position elements is to understand the <br>
+                    fundamental model of CSS-the box model.
+                </p>
+                <h2>The Box Model</h2>
+                <p>
+                    Every element you place on a page creates a box. You cannot always see the <br>
+                    boundaries and the borders of the boxes you create, nut the boxes are there. A <i>div</i> <br>
+                    element creaes a box, as do <i>h1</i>, <i>img</i>, <i>span</i>, and <i>td</i> elements.Each box has
+                    properties <br>
+                    you can set with CSS. I've illustrated some of these properties in Figure 1. <br>
+                </p>
+                <br>
+                <h4>Figure 1 Border, padding, and margin</h4>
+                The <i>padding</i> of a box is the distance between the content of the box and the box's <br>
+                border, and the <i>margin</i> is the distancebetween a box and any adjacent element. In <br>
+                other words, padding adds space inside the border, while a margin adds space outside <br>
+                the border. In the following CSS, I set both the padding and the margin to a distance of <br>
+                10 pixels. This is why you can see so much white space in Figure1. <br>
+                The border surrounding every element is not visible by default, but by using CSS I can <br>
+                change the color of an element's border, as well as the thickness and line style the <br>
+                browser uses when drawing the border. What you see in Figure 1 is the result of a style <br>
+                rule telling the browser to draw a solid, thin red line around the box that each div <br>
+                element creates.
+            </div>
+            <div class="thirddiv">
+                <h3><img src="img/CitiusTechlogo.png" alt="About the Author"></h3>
+                <br><br>
+                Scott Allen is the Principal Consultant and a founder of OdeToCode LLC. <br>
+                <h4>Find Scott on:</h4>
+                <p>Twitter - <a href="#">@OdeToCode</a></p>
+                <a href="#">Scott's Blog</a>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

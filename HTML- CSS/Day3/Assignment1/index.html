@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <style>
+        .flex {
+            display: flex;
+            border: 2px solid rgb(72, 202, 228);
+            border-radius: 5px;
+            width: 1200px;
+            height: 550px;
+            flex-wrap: wrap;
+            padding: 10px 20px;
+
+        }
+
+        .flex>div {
+            background-color: rgb(201, 201, 201);
+            border: 2px solid #000000;
+            border-radius: 5px;
+            width: 290px;
+            height: 150px;
+            padding: 5px 40px;
+            text-align: center;
+            margin: 10px 12px;
+            font-size: 50px;
+
+        }
+
+        .myp {
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        @media screen and (max-width:426px) {
+            .flex {
+                display: block;
+                width: 365px;
+                height: 1485px;
+
+
+            }
+
+            .flex>div {
+                width: 280px;
+                height: 140px;
+                margin-left: 0px;
+            }
+
+            .myp {
+                vertical-align: middle;
+                margin: 40px 40px;
+            }
+
+        }
+
+        @media screen and (max-width:320px) {
+            .flex {
+                display: block;
+                width: 260px;
+                height: 1300px;
+
+
+            }
+
+            .flex>div {
+                width: 180px;
+                height: 120px;
+                margin-left: 0px;
+            }
+
+            .myp {
+                vertical-align: middle;
+                margin: 40px 40px;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="flex">
+        <div>
+            <p class="myp">A</p>
+        </div>
+        <div>
+            <p class="myp">B</p>
+        </div>
+        <div>
+            <p class="myp">C</p>
+        </div>
+        <div>
+            <p class="myp">D</p>
+        </div>
+        <div>
+            <p class="myp">E</p>
+        </div>
+        <div>
+            <p class="myp">F</p>
+        </div>
+        <div>
+            <p class="myp">G</p>
+        </div>
+        <div>
+            <p class="myp">H</p>
+        </div>
+        <div>
+            <p class="myp">I</p>
+        </div>
+    </div>
+</body>
+
+</html>
